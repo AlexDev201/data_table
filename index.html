@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table border="4">
+          <thead>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" class="first_name" id="first_name"></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <th>Last Name</th>
+                <td> <input type="text"  class="last_name" id="last_name"> </td>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td> <input type="text" class="email" id="email"> </td>
+            </tr>
+
+            <tr>
+                <th>Age</th>
+                <td> <input type="text" class="age" id="age">  </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <input type="button" id="button" name="button" value="Add" 
+                    onclick="AddRow()"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
